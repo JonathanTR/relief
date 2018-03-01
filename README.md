@@ -10,11 +10,13 @@ Fortunately, there are some very simple changes that can tame a wild bramble of 
 
 The best part is, there is nothing to download. No dependencies other than your browser. In fact, here is all of the code necessary to change your life on the internet:
 
-            function(){
-              document.body.style.width = '80ch';
-              document.body.style.lineHeight = '1.62em';
-              document.body.style.margin = '0 auto';
-            }
+```javascript
+function(){
+  document.body.style.width = '80ch';
+  document.body.style.lineHeight = '1.62em';
+  document.body.style.margin = '0 auto';
+}
+```
 
 Neat, huh? Through the magic of well-defined, open standards, you can comfortably read long form content on the internet again -- even if it was put there by some typographical neanderthal who cares not one wit for your eyesight and sanity.
 
