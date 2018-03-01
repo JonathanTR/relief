@@ -20,4 +20,4 @@ function(){
 
 Neat, huh? Through the magic of well-defined, open standards, you can comfortably read long form content on the internet again -- even if it was put there by some typographical neanderthal who cares not one wit for your eyesight and sanity.
 
-All you need to do is bookmark this link: [relief](javascript:(function(){document.body.style.width = '80ch';document.body.style.lineHeight = '1.62em';document.body.style.margin = '0 auto';})())
+All you need to do is drag this link to your bookmarks bar: [relief](javascript:(function(){document.body.style.width = '80ch';document.body.style.lineHeight = '1.62em';document.body.style.margin = '0 auto';})())
