@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Relief</title>
+    <body>
+      <br><br>
+      <article>
+        <h1>Reading on the internet can be painful</h1>
+
+        <p>
+        You ever sit down to read a long article, only to find your sight blurring and your brain shutting down due to the horrible formatting? I mean, historically speaking, <a href="https://www.gutenberg.org">Project Gutenberg</a> is an incredible project, but try reading it for more than five minutes without inducing a migrain.
+        </p>
+
+        <p>
+        Fortunately, there are some very simple changes that can tame a wild bramble of text. This bookmarklet introduces three simple rules:
+        </p>
+
+        <ol>
+          <li>Limit text width to 80 characters</li>
+          <li>Set a readable line-height using the golden ratio</li>
+          <li>Center the body text on the screen</li>
+        </ol>
+
+        <p>
+        The best part is, there is nothing to download. No dependencies other than your browser. In fact, here is all of the code necessary to change your life on the internet:
+        </p>
+
+        <pre><code>
+        function(){
+          document.body.style.width = '80ch';
+          document.body.style.lineHeight = '1.62em';
+          document.body.style.margin = '0 auto';
+        }
+        </code></pre>
+
+        <p>
+        Neat, huh? Through the magic of well-defined, open standards, you can comfortably read long form content on the internet again -- even if it was put there by some typographical neanderthal who cares not one wit for your eyesight and sanity.
+        </p>
+
+        <p>
+        All you need to do is bookmark this link:
+        <a href="javascript:(function(){document.body.style.width = '80ch';document.body.style.lineHeight = '1.62em';document.body.style.margin = '0 auto';})()">relief</a>
+        </p>
+
+      </article>
+    </body>
+  </head>
+</html>
+
+
